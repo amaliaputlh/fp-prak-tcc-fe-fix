@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.table th {
+    text-align: center;
+}
+
+.top_navbar {
+    background-color: #DFA67B;
+}
+
+.navbar_header {
+    text-align: center;
+}
+
+.navbar_header h1 {
+    color: white;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.navbar_menu {
+    text-decoration: none;
+    display: flex;
+    background: #FFF2CC;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    margin-bottom: 20px;
+}
+
+.navbar_menu_left {
+    display: flex;
+}
+
+.navbar_menu_left a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar_menu_left button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 1em;
+    padding: 8px 16px;
+}
+
+.navbar_menu_dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #FFF2CC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 0;
+}
+
+.navbar_menu_dropdown_content a {
+    color: black;
+    display: block;
+    padding: 4px 16px;
+    margin: 0;
+}
+
+.navbar_menu_dropdown:hover .navbar_menu_dropdown_content {
+    display: block;
+}
+
+.navbar_menu_right {
+    margin: 4px;
+}
+
+.navbar_menu_right a {
+    background-color: #DFA67B;
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+}
+
+.add_inventaris a {
+    background-color: #DFA67B;
+    text-decoration: none;
+    color: white;
+    padding: 10px 12px;
+}
+
+.navbar_menu_dropdown_content a:hover {
+    background-color: #FFF2CC;
+}
+
+.navbar_menu_left a:hover,
+.navbar_menu_left button:hover {
+    background-color: #DFA67B;
+    color: white;
+}
+
+.form_login {
+    background-color: #FFF2CC;
+    height: 100vh;
+    padding-top: 64px;
+}
+
+.form_login_card {
+    width: 40%;
+    background-color: white;
+    padding: 48px 32px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.welcome {
+    text-align: center;
+    margin: 192px 0;
+}
+
+.bottom_footer,
+.form_add_inventaris_title {
+    background-color: #DFA67B;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.form_add_inventaris_title {
+    margin-bottom: 32px;
+}
+
+.form_add_inventaris {
+    width: 72%;
+    margin: 42px auto;
+}
+
+.table_inventaris {
+    width: 96%;
+    min-width: 86%;
+    margin: 42px auto;
+    margin-bottom: 0;
+    border: 1px solid #DFA67B;
+}
+
+.table thead {
+    background-color: #DFA67B;
+    color: white;
+}
+
+.add_inventaris {
+    margin: 8px;
+}
+
+.total_inventaris {
+    text-align: center;
+    margin-bottom: 42px;
+}

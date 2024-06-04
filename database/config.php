@@ -1,0 +1,3 @@
+<?php
+$token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidXNlcm5hbWUiOiJuaXNhIiwiaWF0IjoxNzE3NDg1NjY3LCJleHAiOjE3MTc0ODkyNjd9.WaD8x2RzN0Irhlj8dfV_2McZMvYu4jYqXaGWnG6BSEM";
+?>
