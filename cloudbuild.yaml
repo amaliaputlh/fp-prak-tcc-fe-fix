@@ -1,0 +1,10 @@
+steps:
+# Langkah ini menginstal dependensi jika Anda menggunakan composer
+- name: 'gcr.io/cloud-builders/composer'
+  args: ['install']
+
+# Langkah ini menggunakan Google Cloud SDK untuk mendepoy aplikasi Anda ke App Engine
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy']
+timeout: '1600s'
