@@ -17,7 +17,7 @@ if (isset($_GET["op"])) {
         $button = "Ubah";
         if (isset($_GET["id"])) {
             $id = $_GET["id"];
-            $url = "http://localhost:8080/barang/$id"; // Sesuaikan dengan URL endpoint API Anda
+            $url = "https://e-01-415004.uc.r.appspot.com/barang/$id"; // Sesuaikan dengan URL endpoint API Anda
             $ch = curl_init($url);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array("Authorization: Bearer $token")); // Menambahkan header Authorization dengan token

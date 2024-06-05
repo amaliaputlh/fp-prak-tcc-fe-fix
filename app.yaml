@@ -1,0 +1,16 @@
+runtime: php83
+service: default
+
+handlers:
+  # Serve static files for CSS
+  - url: /assets/css
+    static_dir: assets/css
+
+  # Serve individual static files (favicon, etc.)
+  - url: /favicon\.ico
+    static_files: favicon.ico
+    upload: favicon\.ico
+
+  # Catch-all handler to route all other requests through index.php
+  - url: /.*
+    script: auto

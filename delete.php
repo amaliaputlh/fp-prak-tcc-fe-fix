@@ -2,7 +2,7 @@
 include 'database/config.php';
 
 $id = $_GET["id"];
-$url = "http://localhost:8080/barang/$id"; // URL dengan ID barang yang akan dihapus
+$url = "https://e-01-415004.uc.r.appspot.com/barang/$id"; // URL dengan ID barang yang akan dihapus
 //$token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhbWFsaWEiLCJpYXQiOjE3MTc0Mjc0MTcsImV4cCI6MTcxNzQzMTAxN30.3Kixqf1zPl_44nIkXAU6L4FMRHzlBnKkpdqzE_auxeM"; // Token yang dimasukkan secara manual
 
 $ch = curl_init($url);

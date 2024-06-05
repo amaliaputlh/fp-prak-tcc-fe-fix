@@ -4,7 +4,7 @@
     $pass = $_POST["password"];
 
     // Mengambil data dari API
-    $apiUrl = "http://localhost:8080/user";
+    $apiUrl = "https://e-01-415004.uc.r.appspot.com/user";
     $apiResponse = file_get_contents($apiUrl);
     $apiData = json_decode($apiResponse, true);
 

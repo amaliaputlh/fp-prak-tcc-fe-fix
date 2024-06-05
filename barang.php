@@ -40,7 +40,7 @@ if (!isset($_SESSION['username'])) header("location:index.php");
                 include 'database/config.php';
                 
                 // URL API yang ingin diambil datanya
-                $api_url = "http://localhost:8080/barang";
+                $api_url = "https://e-01-415004.uc.r.appspot.com/barang";
 
                 // Menyiapkan opsi untuk permintaan HTTP
                 $options = array(

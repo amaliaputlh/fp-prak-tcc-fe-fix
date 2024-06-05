@@ -20,7 +20,7 @@ if ($_GET["op"] == "tambah") {
 
     include 'config.php';
 
-    $url = "http://localhost:8080/barang";
+    $url = "https://e-01-415004.uc.r.appspot.com/barang";
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
@@ -56,7 +56,7 @@ if ($_GET["op"] == "tambah") {
         );
         
         include 'config.php';
-        $url = "http://localhost:8080/barang/$id"; // Perbaiki URL dengan menambahkan ID barang
+        $url = "https://e-01-415004.uc.r.appspot.com/barang/$id"; // Perbaiki URL dengan menambahkan ID barang
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
